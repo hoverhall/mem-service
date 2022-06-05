@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import memReducer from '../features/memes/memSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    memList: memReducer,
   },
 });
